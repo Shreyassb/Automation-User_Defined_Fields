@@ -1,0 +1,16 @@
+1) Even after removal - Tool tells that it is existing / in domain.
+
+2) Can you work for Modify & Remove?
+
+3)
+Reference link for Executable error 
+https://stackoverflow.com/questions/40716346/windows-pyinstaller-error-failed-to-execute-script-when-app-clicked
+
+4)
+Success (in the same DCW)
+
+5) Install nsisqssg 
+Quick setup script generator
+
+6) 
+https://stackoverflow.com/questions/65068775/how-to-stop-or-pause-pyautogui-at-any-moment-that-i-want

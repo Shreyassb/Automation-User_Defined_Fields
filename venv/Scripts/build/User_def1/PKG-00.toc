@@ -1,0 +1,56 @@
+('C:\\Users\\SS078074\\PycharmProjects\\Schedule '
+ 'Comments\\venv\\Scripts\\build\\User_def1\\PKG-00.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0},
+ [('PYZ-00.pyz',
+   'C:\\Users\\SS078074\\PycharmProjects\\Schedule '
+   'Comments\\venv\\Scripts\\build\\User_def1\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\SS078074\\PycharmProjects\\Schedule '
+   'Comments\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\SS078074\\PycharmProjects\\Schedule '
+   'Comments\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'C:\\Users\\SS078074\\PycharmProjects\\Schedule '
+   'Comments\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('User_def1',
+   'C:\\Users\\SS078074\\PycharmProjects\\Schedule '
+   'Comments\\venv\\Scripts\\User_def1.py',
+   'PYSOURCE'),
+  ('User_def1.exe.manifest',
+   'C:\\Users\\SS078074\\PycharmProjects\\Schedule '
+   'Comments\\venv\\Scripts\\build\\User_def1\\User_def1.exe.manifest',
+   'BINARY')],
+ True,
+ False,
+ False,
+ [])
