@@ -145,7 +145,7 @@ dcwapp.setEntry("Log File Destination", "Where do you want the log file saved?")
         if str(key) == 'Key.esc':
             main.status = 'pause'
             user_input = input('Program paused! What would you like to do? If you would like to Continue, Type 1. If you would like to skip the Userdefined field Type 2 ')
-            while user_input != '1' and user_input != '2':
+            while user_input != '1' and user_input != '2':ABCD2 
                 user_input = input('Incorrect input, try either "y" or "n" ')
 
             if user_input == '1':
@@ -190,11 +190,10 @@ def press(button):
             myfile = str(dcwapp.getEntry("Automation File"))
             temp = str(dcwapp.getEntry("Log File Destination"))
             now = datetime.now()
-            current_time = now.strftime("%H:%M:%S")
+            current_time = now.strftime("%H_%M_%S")
 
             filename = "LogFile"
             mynewfile = temp + "/" + filename + current_time + ".xlsx"
-
             excelfile = pandas.ExcelFile(myfile)
             df = excelfile.parse(0)
             #df = pd.read_excel(myfile, sheet_name="Sheet1")
@@ -227,35 +226,35 @@ def press(button):
                     pyautogui.write(f2[name])
                     time.sleep(.5)
                     keyboard.press('tab')
-
-
                     time.sleep(1)
+
                     if f3[name] == 'Text' or f3[name] == 'TEXT':
                         keyboard.press('tab')
                         time.sleep(.5)
                         keyboard.press('enter')
                         time.sleep(.5)
 
-                        if (pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey1.png'),confidence=0.9) != None) or (
+                        if (pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey.png'),
+                                                     confidence=0.9) != None) or (
                                 pyautogui.locateOnScreen(resource_path('ErrorOcc.png'), confidence=0.9) != None):
 
-                            if (pyautogui.locateOnScreen(resource_path('Ok.png')) != None) or (pyautogui.locateOnScreen(resource_path('Ok2.png')) != None) or (
-                                    pyautogui.locateOnScreen(resource_path('Ok1.png')) != None):
-                                x, y = pyautogui.locateCenterOnScreen(
-                                    resource_path('Ok.png') or resource_path('Ok2.png') or resource_path('Ok1.png'), confidence=0.9)
+                            if (pyautogui.locateOnScreen(resource_path('Ok.png'),confidence=0.9) != None) or (pyautogui.locateOnScreen(resource_path('Ok2.png'),confidence=0.9) != None) or (
+                                    pyautogui.locateOnScreen(resource_path('Ok1.png'),confidence=0.9) != None):
+                                x, y = pyautogui.locateCenterOnScreen(resource_path('Ok.png') or resource_path('Ok2.png') or resource_path('Ok1.png'), confidence=0.9)
                                 pyautogui.click(x, y)
-                                time.sleep(4)
+                                time.sleep(2)
 
-                                if pyautogui.locateOnScreen(resource_path('Cancel.png'), confidence=0.9) != None or pyautogui.locateOnScreen(resource_path('Cancel1.png'), confidence=0.9) != None:
+                                if pyautogui.locateOnScreen(resource_path('Cancel.png'),confidence=0.9) != None or pyautogui.locateOnScreen(resource_path('Cancel1.png'),confidence=0.9) != None:
                                     x, y = pyautogui.locateCenterOnScreen(resource_path('Cancel.png') or resource_path('Cancel1.png'), confidence=0.9)
                                     pyautogui.click(x, y)
-                                    time.sleep(4)
+                                    time.sleep(2)
 
-                                    if pyautogui.locateOnScreen(resource_path('Yes.png')) != None or pyautogui.locateOnScreen(resource_path('Yes1.png')) != None:
-                                        x, y = pyautogui.locateCenterOnScreen(resource_path('Yes.png') or resource_path('Yes1.png'), confidence=0.9)
+                                    if pyautogui.locateOnScreen(resource_path('Yes.png')) != None or pyautogui.locateOnScreen(resource_path('Yes2.png')) != None:
+                                        x, y = pyautogui.locateCenterOnScreen(resource_path('Yes.png') or resource_path('Yes2.png'), confidence=0.9)
                                         pyautogui.click(x, y)
-                                        time.sleep(1)
+                                        time.sleep(2)
                                         output_list.append('Fail')
+
                         else:
                             output_list.append('Success')
 
@@ -270,26 +269,25 @@ def press(button):
                         keyboard.press('enter')
                         time.sleep(4)
 
-                        if (pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey1.png'),
+                        if (pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey.png'),
                                                      confidence=0.9) != None) or (
                                 pyautogui.locateOnScreen(resource_path('ErrorOcc.png'), confidence=0.9) != None):
 
-                            if (pyautogui.locateOnScreen(resource_path('Ok.png')) != None) or (pyautogui.locateOnScreen(resource_path('Ok2.png')) != None) or (
-                                    pyautogui.locateOnScreen(resource_path('Ok1.png')) != None):
-                                x, y = pyautogui.locateCenterOnScreen(
-                                    resource_path('Ok.png') or resource_path('Ok2.png') or resource_path('Ok1.png'), confidence=0.9)
+                            if (pyautogui.locateOnScreen(resource_path('Ok.png'),confidence=0.9) != None) or (pyautogui.locateOnScreen(resource_path('Ok2.png'),confidence=0.9) != None) or (
+                                    pyautogui.locateOnScreen(resource_path('Ok1.png'),confidence=0.9) != None):
+                                x, y = pyautogui.locateCenterOnScreen(resource_path('Ok.png') or resource_path('Ok2.png') or resource_path('Ok1.png'), confidence=0.9)
                                 pyautogui.click(x, y)
-                                time.sleep(4)
+                                time.sleep(2)
 
-                                if pyautogui.locateOnScreen(resource_path('Cancel.png'), confidence=0.9) != None or pyautogui.locateOnScreen(resource_path('Cancel1.png'), confidence=0.9) != None:
+                                if pyautogui.locateOnScreen(resource_path('Cancel.png'),confidence=0.9) != None or pyautogui.locateOnScreen(resource_path('Cancel1.png'),confidence=0.9) != None:
                                     x, y = pyautogui.locateCenterOnScreen(resource_path('Cancel.png') or resource_path('Cancel1.png'), confidence=0.9)
                                     pyautogui.click(x, y)
-                                    time.sleep(4)
+                                    time.sleep(2)
 
-                                    if pyautogui.locateOnScreen(resource_path('Yes.png')) != None or pyautogui.locateOnScreen(resource_path('Yes1.png')) != None:
-                                        x, y = pyautogui.locateCenterOnScreen(resource_path('Yes.png') or resource_path('Yes1.png'), confidence=0.9)
+                                    if pyautogui.locateOnScreen(resource_path('Yes.png')) != None or pyautogui.locateOnScreen(resource_path('Yes2.png')) != None:
+                                        x, y = pyautogui.locateCenterOnScreen(resource_path('Yes.png') or resource_path('Yes2.png'), confidence=0.9)
                                         pyautogui.click(x, y)
-                                        time.sleep(1)
+                                        time.sleep(2)
                                         output_list.append('Fail')
 
                         else:
@@ -306,26 +304,25 @@ def press(button):
                         keyboard.press('enter')
                         time.sleep(4)
 
-                        if (pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey1.png'),
+                        if (pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey.png'),
                                                      confidence=0.9) != None) or (
                                 pyautogui.locateOnScreen(resource_path('ErrorOcc.png'), confidence=0.9) != None):
 
-                            if (pyautogui.locateOnScreen(resource_path('Ok.png')) != None) or (pyautogui.locateOnScreen(resource_path('Ok2.png')) != None) or (
-                                    pyautogui.locateOnScreen(resource_path('Ok1.png')) != None):
-                                x, y = pyautogui.locateCenterOnScreen(
-                                    resource_path('Ok.png') or resource_path('Ok2.png') or resource_path('Ok1.png'), confidence=0.9)
+                            if (pyautogui.locateOnScreen(resource_path('Ok.png'),confidence=0.9) != None) or (pyautogui.locateOnScreen(resource_path('Ok2.png'),confidence=0.9) != None) or (
+                                    pyautogui.locateOnScreen(resource_path('Ok1.png'),confidence=0.9) != None):
+                                x, y = pyautogui.locateCenterOnScreen(resource_path('Ok.png') or resource_path('Ok2.png') or resource_path('Ok1.png'), confidence=0.9)
                                 pyautogui.click(x, y)
-                                time.sleep(4)
+                                time.sleep(2)
 
-                                if pyautogui.locateOnScreen(resource_path('Cancel.png'), confidence=0.9) != None or pyautogui.locateOnScreen(resource_path('Cancel1.png'), confidence=0.9) != None:
+                                if pyautogui.locateOnScreen(resource_path('Cancel.png'),confidence=0.9) != None or pyautogui.locateOnScreen(resource_path('Cancel1.png'),confidence=0.9) != None:
                                     x, y = pyautogui.locateCenterOnScreen(resource_path('Cancel.png') or resource_path('Cancel1.png'), confidence=0.9)
                                     pyautogui.click(x, y)
-                                    time.sleep(4)
+                                    time.sleep(2)
 
-                                    if pyautogui.locateOnScreen(resource_path('Yes.png')) != None or pyautogui.locateOnScreen(resource_path('Yes1.png')) != None:
-                                        x, y = pyautogui.locateCenterOnScreen(resource_path('Yes.png') or resource_path('Yes1.png'), confidence=0.9)
+                                    if pyautogui.locateOnScreen(resource_path('Yes.png')) != None or pyautogui.locateOnScreen(resource_path('Yes2.png')) != None:
+                                        x, y = pyautogui.locateCenterOnScreen(resource_path('Yes.png') or resource_path('Yes2.png'), confidence=0.9)
                                         pyautogui.click(x, y)
-                                        time.sleep(1)
+                                        time.sleep(2)
                                         output_list.append('Fail')
 
                         else:
@@ -342,31 +339,29 @@ def press(button):
                         keyboard.press('enter')
                         time.sleep(4)
 
-                        if (pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey1.png'),
+                        if (pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey.png'),
                                                      confidence=0.9) != None) or (
                                 pyautogui.locateOnScreen(resource_path('ErrorOcc.png'), confidence=0.9) != None):
 
-                            if (pyautogui.locateOnScreen(resource_path('Ok.png')) != None) or (pyautogui.locateOnScreen(resource_path('Ok2.png')) != None) or (
-                                    pyautogui.locateOnScreen(resource_path('Ok1.png')) != None):
-                                x, y = pyautogui.locateCenterOnScreen(
-                                    resource_path('Ok.png') or resource_path('Ok2.png') or resource_path('Ok1.png'), confidence=0.9)
+                            if (pyautogui.locateOnScreen(resource_path('Ok.png'),confidence=0.9) != None) or (pyautogui.locateOnScreen(resource_path('Ok2.png'),confidence=0.9) != None) or (
+                                    pyautogui.locateOnScreen(resource_path('Ok1.png'),confidence=0.9) != None):
+                                x, y = pyautogui.locateCenterOnScreen(resource_path('Ok.png') or resource_path('Ok2.png') or resource_path('Ok1.png'), confidence=0.9)
                                 pyautogui.click(x, y)
-                                time.sleep(4)
+                                time.sleep(2)
 
-                                if pyautogui.locateOnScreen(resource_path('Cancel.png'), confidence=0.9) != None or pyautogui.locateOnScreen(resource_path('Cancel1.png'), confidence=0.9) != None:
+                                if pyautogui.locateOnScreen(resource_path('Cancel.png'),confidence=0.9) != None or pyautogui.locateOnScreen(resource_path('Cancel1.png'),confidence=0.9) != None:
                                     x, y = pyautogui.locateCenterOnScreen(resource_path('Cancel.png') or resource_path('Cancel1.png'), confidence=0.9)
                                     pyautogui.click(x, y)
-                                    time.sleep(4)
+                                    time.sleep(2)
 
-                                    if pyautogui.locateOnScreen(resource_path('Yes.png')) != None or pyautogui.locateOnScreen(resource_path('Yes1.png')) != None:
-                                        x, y = pyautogui.locateCenterOnScreen(resource_path('Yes.png') or resource_path('Yes1.png'), confidence=0.9)
+                                    if pyautogui.locateOnScreen(resource_path('Yes.png')) != None or pyautogui.locateOnScreen(resource_path('Yes2.png')) != None:
+                                        x, y = pyautogui.locateCenterOnScreen(resource_path('Yes.png') or resource_path('Yes2.png'), confidence=0.9)
                                         pyautogui.click(x, y)
-                                        time.sleep(1)
+                                        time.sleep(2)
                                         output_list.append('Fail')
 
                         else:
                             output_list.append('Success')
-
                     elif f3[name] == 'Coded' or f3[name] == 'CODED' or f3[name] == "Codified" or f3[name] == "CODIFIED":
                         time.sleep(1)
                         z = f4[name]
@@ -377,46 +372,45 @@ def press(button):
                             i = i + 1
                         keyboard.press('tab')
                         time.sleep(1)
-
                         pyautogui.write(str(z))
                         keyboard.press('tab')
                         time.sleep(1)
                         keyboard.press('enter')
-                        time.sleep(4)
+                        time.sleep(2)
 
-                        if (pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey1.png'),
+                        if (pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey.png'),
                                                      confidence=0.9) != None) or (
                                 pyautogui.locateOnScreen(resource_path('ErrorOcc.png'), confidence=0.9) != None):
 
-                            if (pyautogui.locateOnScreen(resource_path('Ok.png')) != None) or (pyautogui.locateOnScreen(resource_path('Ok2.png')) != None) or (
-                                    pyautogui.locateOnScreen(resource_path('Ok1.png')) != None):
+                            if (pyautogui.locateOnScreen(resource_path('Ok.png'),confidence=0.9) != None) or (pyautogui.locateOnScreen(resource_path('Ok2.png'),confidence=0.9) != None) or (
+                                    pyautogui.locateOnScreen(resource_path('Ok1.png'),confidence=0.9) != None):
                                 x, y = pyautogui.locateCenterOnScreen(resource_path('Ok.png') or resource_path('Ok2.png') or resource_path('Ok1.png'), confidence=0.9)
                                 pyautogui.click(x, y)
-                                time.sleep(4)
+                                time.sleep(2)
 
-                                if pyautogui.locateOnScreen(resource_path('Cancel.png')) != None or pyautogui.locateOnScreen(resource_path('Cancel1.png')) != None:
-                                    x, y = pyautogui.locateCenterOnScreen(resource_path('Cancel.png') or resource_path('Cancel1.png'), confidence=0.5)
+                                if pyautogui.locateOnScreen(resource_path('Cancel.png'),confidence=0.9) != None or pyautogui.locateOnScreen(resource_path('Cancel1.png'),confidence=0.9) != None:
+                                    x, y = pyautogui.locateCenterOnScreen(resource_path('Cancel.png') or resource_path('Cancel1.png'), confidence=0.9)
                                     pyautogui.click(x, y)
-                                    time.sleep(4)
+                                    time.sleep(2)
 
-                                    if pyautogui.locateOnScreen(resource_path('Yes.png')) != None or pyautogui.locateOnScreen(resource_path('Yes1.png')) != None:
-                                        x, y = pyautogui.locateCenterOnScreen(resource_path('Yes.png') or resource_path('Yes1.png'), confidence=0.9)
+                                    if pyautogui.locateOnScreen(resource_path('Yes.png')) != None or pyautogui.locateOnScreen(resource_path('Yes2.png')) != None:
+                                        x, y = pyautogui.locateCenterOnScreen(resource_path('Yes.png') or resource_path('Yes2.png'), confidence=0.9)
                                         pyautogui.click(x, y)
-                                        time.sleep(1)
+                                        time.sleep(2)
                                         output_list.append('Fail')
 
                         else:
                             output_list.append('Success')
 
-                    """a = pyautogui.locateCenterOnScreen(resource_path('Add3.png'), confidence=0.9)
+                    a = pyautogui.locateCenterOnScreen(resource_path('Add3.png'), confidence=0.9)
                     time.sleep(1)
 
                     if a != None:
                         x, y = pyautogui.locateCenterOnScreen(resource_path('Add3.png'), confidence=0.9)
                         pyautogui.click(x, y)
-                        time.sleep(1)"""
+                        time.sleep(1)
 
-                #pyautogui.alert("Automation Complete!")
+                pyautogui.alert("Automation Complete!")
 
             df1 = pd.DataFrame(list(zip(f1, f2, f3, f4, output_list)),
                                columns=['Field Name/Prompt Description', 'CDF/Unique Key', 'PROMPT_TYPE', 'CODESET',
@@ -427,7 +421,6 @@ def press(button):
         except PermissionError:
             pyautogui.alert("Please close the excel workbook and then run automation.")
             exit()
-
 
 
 dcwapp.addButtons(["RUN"], press, 4, 0)
