@@ -56,6 +56,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Try" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Schedule Comments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Scripts/Try.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="User_def1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Schedule Comments" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,6 +122,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.User_def1" />
+        <item itemvalue="Python.Try" />
         <item itemvalue="Python.Testing" />
         <item itemvalue="Python.sched_comments" />
       </list>
@@ -128,22 +150,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624361977463" />
-    <state width="1899" height="168" key="GridCell.Tab.0.bottom" timestamp="1624374332834">
+    <state width="1899" height="168" key="GridCell.Tab.0.bottom" timestamp="1624900937435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="168" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624374332834" />
-    <state width="1899" height="168" key="GridCell.Tab.0.center" timestamp="1624374332834">
+    <state width="1899" height="168" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624900937435" />
+    <state width="1899" height="168" key="GridCell.Tab.0.center" timestamp="1624900937435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="168" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624374332834" />
-    <state width="1899" height="168" key="GridCell.Tab.0.left" timestamp="1624374332834">
+    <state width="1899" height="168" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624900937435" />
+    <state width="1899" height="168" key="GridCell.Tab.0.left" timestamp="1624900937435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="168" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624374332834" />
-    <state width="1899" height="168" key="GridCell.Tab.0.right" timestamp="1624374332834">
+    <state width="1899" height="168" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624900937435" />
+    <state width="1899" height="168" key="GridCell.Tab.0.right" timestamp="1624900937435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="168" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624374332834" />
+    <state width="1899" height="168" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624900937435" />
     <state x="587" y="119" key="SettingsEditor" timestamp="1624204813441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

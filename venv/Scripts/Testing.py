@@ -381,9 +381,7 @@ def press(button):
                     sleep(.05)
                     if (newfieldX, newfieldY) != pyautogui.position():
                         dcwapp.warningBox("Paused!",
-                                          "You moved the cursor! Program paused.  Place your cursor over any value in the operand detail selection " + str(
-                                              row[
-                                                  4]) + ".  After closing this message box, the program will resume in 5 seconds.")
+                                          "You moved the cursor! Program paused.  Place your cursor over any value in the operand detail selection " + str(row[4]) + ".  After closing this message box, the program will resume in 5 seconds.")
                         sleep(5)
                     sleep(.05)
                     pyautogui.click()

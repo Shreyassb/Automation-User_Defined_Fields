@@ -154,7 +154,7 @@ def resource_path(relative_path):
 
 
 
-def tshoot():
+def tshoot(q):
     onscreen = None
     check = 0
 
@@ -165,9 +165,18 @@ def tshoot():
         else:
             check += 1
 
-    if check >= 8:
+    sleep(1)
+    intrpt = q.get()
+
+    if check >= 8 and intrpt==0:
         output_list.append('Success')
         #dcwapp.warningBox("Oops!","I couldn't find the Ok button. Please click the button and then close this message box.")
+
+    elif intrpt>=1:
+        output_list.append('Skipped')
+        identify(t1)
+        identify(t2)
+        identify(t3)
 
     else:
         output_list.append('Fail')
@@ -212,6 +221,21 @@ def add(p):
 
     else:
         identify(p)
+""""
+def exit_program(q):
+    global intrpt
+    def on_press(key):
+        if str(key) == 'Key.end':
+            q.put(1)
+            intrpt = 1
+        elif str(key) == 'Key.shift':
+            q.put(0)
+        return intrpt
+    return intrpt
+    with Listener(on_press=on_press) as listener:
+        listener.join()
+""""
+
 
 def press(button):
     global intrpt
@@ -220,14 +244,24 @@ def press(button):
         sys.exit()
     else:
         try:
+            #q = Queue()
+            #dcwapp.thread(exit_program,q)
+            #dcwapp.thread(tshoot, q)
             myfile = str(dcwapp.getEntry("Automation File"))
             temp = str(dcwapp.getEntry("Log File Destination"))
             now = datetime.now()
             current_time = now.strftime("%H_%M_%S")
+
             filename = "LogFile"
             mynewfile = temp + "/" + filename + current_time + ".xlsx"
             excelfile = pandas.ExcelFile(myfile)
             df = excelfile.parse(0)
+            #df = pd.read_excel(myfile, sheet_name="Sheet1")
+
+            # df = pd.read_excel(r'C:\Users\SS078074\OneDrive - Cerner Corporation\Desktop\Automation Files\User Defined Fields\User_Defined_Fields.xlsx',sheet_name="Sheet1")
+            #writer = pd.ExcelWriter(temp, engine="openpyxl", options={'strings_to_formulas': False})
+
+            # appt_list = df['Appointment Mnemonics'].values.tolist()
             f1 = df['Field Name/Prompt Description'].values.tolist()
             f2 = df['CDF/Unique Key'].values.tolist()
             f3 = df['PROMPT_TYPE'].values.tolist()
@@ -235,6 +269,7 @@ def press(button):
             time.sleep(1)
             p=resource_path('Add3.png')
             add(p)
+
 
             for name in range(len(f1)):  # typing appt name into the menmonic field in appt type tool to search for it
                     pyautogui.write(f1[name])
@@ -246,13 +281,48 @@ def press(button):
                     time.sleep(.5)
                     keyboard.press('tab')
                     time.sleep(1)
+                    #intrpt = q.get()
+
 
                     if f3[name] == 'Text' or f3[name] == 'TEXT':
                         keyboard.press('tab')
                         time.sleep(.5)
                         keyboard.press('enter')
                         time.sleep(.5)
-                        tshoot()
+                        #intrpt=q.get()
+                        onscreen = None
+                        check = 0
+
+                        while onscreen == None and check < 8:
+                            onscreen = pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey.png'),
+                                                                confidence=0.9) or pyautogui.locateOnScreen(
+                                resource_path('ErrorOcc.png'), confidence=0.9)
+                            if onscreen != None:
+                                break
+                            else:
+                                check += 1
+
+                        sleep(1)
+                        intrpt = q.get()
+                        print(intrpt)
+
+                        if check >= 8 and intrpt == 0:
+                            output_list.append('Success')
+                            # dcwapp.warningBox("Oops!","I couldn't find the Ok button. Please click the button and then close this message box.")
+
+                        elif intrpt == 1:
+                            output_list.append('Skipped')
+                            identify(t1)
+                            identify(t2)
+                            identify(t3)
+
+                        else:
+                            output_list.append('Fail')
+                            identify(t1)
+                            identify(t2)
+                            identify(t3)
+
+
 
                     elif f3[name] == 'Multi' or f3[name] == 'MULTI':
                         i = 0
@@ -264,7 +334,8 @@ def press(button):
                         time.sleep(1)
                         keyboard.press('enter')
                         time.sleep(4)
-                        tshoot()
+                        #intrpt = q.get()
+                        #tshoot(q)
 
                     elif f3[name] == 'Date' or f3[name] == 'DATE':
                         i = 0
@@ -276,7 +347,8 @@ def press(button):
                         time.sleep(1)
                         keyboard.press('enter')
                         time.sleep(4)
-                        tshoot()
+                        #intrpt = q.get()
+                        #tshoot(q)
 
                     elif f3[name] == 'Numeric' or f3[name] == 'NUMERIC' or f3[name] == "Number" or f3[name] == "NUMBER":
                         i = 0
@@ -288,7 +360,40 @@ def press(button):
                         time.sleep(1)
                         keyboard.press('enter')
                         time.sleep(4)
-                        tshoot()
+                        #intrpt = q.get()
+                        #tshoot(q)
+                        onscreen = None
+                        check = 0
+
+                        intrpt = q.get()
+                        print(intrpt)
+                        while onscreen == None and check < 8:
+                            onscreen = pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey.png'),
+                                                                confidence=0.9) or pyautogui.locateOnScreen(
+                                resource_path('ErrorOcc.png'), confidence=0.9)
+                            if onscreen != None:
+                                break
+                            else:
+                                check += 1
+
+                        #intrpt = q.get()
+
+
+                        if check >= 8 and intrpt == 0:
+                            output_list.append('Success')
+                            # dcwapp.warningBox("Oops!","I couldn't find the Ok button. Please click the button and then close this message box.")
+
+                        elif intrpt == 1:
+                            output_list.append('Skipped')
+                            identify(t1)
+                            identify(t2)
+                            identify(t3)
+
+                        else:
+                            output_list.append('Fail')
+                            identify(t1)
+                            identify(t2)
+                            identify(t3)
 
 
                     elif f3[name] == 'Coded' or f3[name] == 'CODED' or f3[name] == "Codified" or f3[name] == "CODIFIED":
@@ -306,7 +411,42 @@ def press(button):
                         time.sleep(1)
                         keyboard.press('enter')
                         time.sleep(2)
-                        tshoot()
+                        onscreen = None
+                        check = 0
+
+                        sleep(1)
+                        intrpt = q.get()
+                        print(intrpt)
+
+                        while onscreen == None and check < 8:
+                            onscreen = pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey.png'),
+                                                                confidence=0.9) or pyautogui.locateOnScreen(
+                                resource_path('ErrorOcc.png'), confidence=0.9)
+                            if onscreen != None:
+                                break
+                            else:
+                                check += 1
+
+
+
+                        if check >= 8 and intrpt == 0:
+                            output_list.append('Success')
+                            # dcwapp.warningBox("Oops!","I couldn't find the Ok button. Please click the button and then close this message box.")
+
+                        elif intrpt == 1:
+                            output_list.append('Skipped')
+                            identify(t1)
+                            identify(t2)
+                            identify(t3)
+
+                        else:
+                            output_list.append('Fail')
+                            identify(t1)
+                            identify(t2)
+                            identify(t3)
+
+                        #intrpt = q.get()
+                        #tshoot(q)
 
                     add(p)
 
@@ -321,6 +461,11 @@ def press(button):
         except PermissionError:
             pyautogui.alert("Please close the excel workbook and then run automation.")
             exit()
+
+
+
+
+
 
 dcwapp.addButtons(["RUN"], press, 4, 0)
 dcwapp.addButtons(["CLOSE"], press, 4, 1)
