@@ -4,13 +4,9 @@
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor',
+  ('pkg_resources._vendor.packaging.version',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._typing',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_typing.py',
+   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
    'PYMODULE'),
   ('typing',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\typing.py',
@@ -18,21 +14,34 @@
   ('contextlib',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\contextlib.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.pyparsing',
+  ('__future__',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\__future__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
-  ('uuid',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\uuid.py',
+  ('pkg_resources._vendor.packaging.tags',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
    'PYMODULE'),
-  ('hashlib',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\hashlib.py',
+  ('ctypes',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\struct.py',
    'PYMODULE'),
   ('logging',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\logging\\__init__.py',
    'PYMODULE'),
   ('pickle',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pprint.py',
    'PYMODULE'),
   ('doctest',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\doctest.py',
@@ -42,6 +51,27 @@
    'PYMODULE'),
   ('gettext',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\bz2.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\fnmatch.py',
    'PYMODULE'),
   ('unittest',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\__init__.py',
@@ -61,9 +91,6 @@
   ('unittest.loader',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\loader.py',
    'PYMODULE'),
-  ('fnmatch',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\fnmatch.py',
-   'PYMODULE'),
   ('unittest.suite',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\suite.py',
    'PYMODULE'),
@@ -81,6 +108,12 @@
    'PYMODULE'),
   ('asyncio.log',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\socket.py',
    'PYMODULE'),
   ('selectors',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\selectors.py',
@@ -292,6 +325,9 @@
   ('hmac',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\hmac.py',
    'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\hashlib.py',
+   'PYMODULE'),
   ('multiprocessing.reduction',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\multiprocessing\\reduction.py',
    'PYMODULE'),
@@ -306,12 +342,6 @@
    'PYMODULE'),
   ('xmlrpc',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xmlrpc\\__init__.py',
-   'PYMODULE'),
-  ('gzip',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\gzip.py',
-   'PYMODULE'),
-  ('_compression',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_compression.py',
    'PYMODULE'),
   ('xml.parsers.expat',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\parsers\\expat.py',
@@ -463,63 +493,6 @@
   ('unittest.util',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\util.py',
    'PYMODULE'),
-  ('difflib',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\difflib.py',
-   'PYMODULE'),
-  ('__future__',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\__future__.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('struct',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\struct.py',
-   'PYMODULE'),
-  ('random',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\random.py',
-   'PYMODULE'),
-  ('ctypes.util',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\util.py',
-   'PYMODULE'),
-  ('ctypes._aix',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\_aix.py',
-   'PYMODULE'),
-  ('ctypes.macholib.dyld',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\macholib\\dyld.py',
-   'PYMODULE'),
-  ('ctypes.macholib',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\macholib\\__init__.py',
-   'PYMODULE'),
-  ('ctypes.macholib.dylib',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\macholib\\dylib.py',
-   'PYMODULE'),
-  ('ctypes.macholib.framework',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\macholib\\framework.py',
-   'PYMODULE'),
-  ('ctypes',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\__init__.py',
-   'PYMODULE'),
-  ('ctypes._endian',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\_endian.py',
-   'PYMODULE'),
-  ('socket',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\socket.py',
-   'PYMODULE'),
-  ('subprocess',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\subprocess.py',
-   'PYMODULE'),
-  ('shutil',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\shutil.py',
-   'PYMODULE'),
-  ('tarfile',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tarfile.py',
-   'PYMODULE'),
-  ('lzma',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\lzma.py',
-   'PYMODULE'),
-  ('bz2',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\bz2.py',
-   'PYMODULE'),
   ('pdb',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pdb.py',
    'PYMODULE'),
@@ -571,30 +544,14 @@
   ('cmd',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\cmd.py',
    'PYMODULE'),
-  ('threading',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\threading.py',
+  ('difflib',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\difflib.py',
    'PYMODULE'),
-  ('_threading_local',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_threading_local.py',
-   'PYMODULE'),
-  ('datetime',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\datetime.py',
-   'PYMODULE'),
-  ('_strptime',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_strptime.py',
-   'PYMODULE'),
-  ('pprint',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pprint.py',
-   'PYMODULE'),
-  ('copy',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\copy.py',
+  ('_compat_pickle',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_compat_pickle.py',
    'PYMODULE'),
   ('string',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\string.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.tags',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
    'PYMODULE'),
   ('distutils.util',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\util.py',
@@ -647,45 +604,70 @@
   ('distutils.errors',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\distutils\\errors.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.appdirs',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.packaging.requirements',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
+  ('pkg_resources._vendor.packaging._typing',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_typing.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging._compat',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
+  ('pkg_resources._vendor.packaging.__about__',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\uuid.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging.utils',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
    'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
   ('pkg_resources._vendor.packaging.specifiers',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
   ('sysconfig',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sysconfig.py',
@@ -748,1026 +730,18 @@
   ('zipfile',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\zipfile.py',
    'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\stringprep.py',
-   'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\stringprep.py',
    'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_py_abc.py',
    'PYMODULE'),
-  ('os',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\os.py',
-   'PYMODULE'),
-  ('openpyxl',
+  ('cv2',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl._constants',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\_constants.py',
-   'PYMODULE'),
-  ('openpyxl.reader.excel',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\reader\\excel.py',
-   'PYMODULE'),
-  ('openpyxl.reader',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\reader\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.reader.drawings',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\reader\\drawings.py',
-   'PYMODULE'),
-  ('openpyxl.chart.reader',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\reader.py',
-   'PYMODULE'),
-  ('openpyxl.chart',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.chart.reference',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\reference.py',
-   'PYMODULE'),
-  ('openpyxl.utils',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.utils.formulas',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\formulas.py',
-   'PYMODULE'),
-  ('openpyxl.utils.cell',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\cell.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.worksheet',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\worksheet.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.scenario',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\scenario.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.pagebreak',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\pagebreak.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.properties',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\properties.py',
-   'PYMODULE'),
-  ('openpyxl.styles.colors',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\colors.py',
-   'PYMODULE'),
-  ('openpyxl.styles',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.styles.named_styles',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\named_styles.py',
-   'PYMODULE'),
-  ('openpyxl.styles.cell_style',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\cell_style.py',
-   'PYMODULE'),
-  ('openpyxl.utils.indexed_list',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\indexed_list.py',
-   'PYMODULE'),
-  ('openpyxl.descriptors.excel',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\excel.py',
-   'PYMODULE'),
-  ('openpyxl.styles.protection',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\protection.py',
-   'PYMODULE'),
-  ('openpyxl.styles.numbers',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\numbers.py',
-   'PYMODULE'),
-  ('openpyxl.styles.fonts',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\fonts.py',
-   'PYMODULE'),
-  ('openpyxl.descriptors.nested',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\nested.py',
-   'PYMODULE'),
-  ('openpyxl.descriptors.base',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\base.py',
-   'PYMODULE'),
-  ('openpyxl.descriptors.namespace',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\namespace.py',
-   'PYMODULE'),
-  ('openpyxl.utils.datetime',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\datetime.py',
-   'PYMODULE'),
-  ('openpyxl.styles.fills',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\fills.py',
-   'PYMODULE'),
-  ('openpyxl.styles.borders',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\borders.py',
-   'PYMODULE'),
-  ('openpyxl.styles.alignment',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\alignment.py',
-   'PYMODULE'),
-  ('openpyxl.descriptors.sequence',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\sequence.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.merge',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\merge.py',
-   'PYMODULE'),
-  ('openpyxl.cell.cell',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\cell\\cell.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.hyperlink',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\hyperlink.py',
-   'PYMODULE'),
-  ('openpyxl.styles.styleable',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\styleable.py',
-   'PYMODULE'),
-  ('openpyxl.styles.builtins',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\builtins.py',
-   'PYMODULE'),
-  ('openpyxl.styles.proxy',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\proxy.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.cell_range',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\cell_range.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.views',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\views.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.filters',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\filters.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.protection',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\protection.py',
-   'PYMODULE'),
-  ('openpyxl.utils.protection',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\protection.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.dimensions',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\dimensions.py',
-   'PYMODULE'),
-  ('openpyxl.utils.bound_dictionary',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\bound_dictionary.py',
-   'PYMODULE'),
-  ('openpyxl.utils.units',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\units.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.page',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\page.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.datavalidation',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\datavalidation.py',
-   'PYMODULE'),
-  ('openpyxl.formula.translate',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\formula\\translate.py',
-   'PYMODULE'),
-  ('openpyxl.formula',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\formula\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.formula.tokenizer',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\formula\\tokenizer.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.defined_name',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\defined_name.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.child',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\child.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.header_footer',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\header_footer.py',
-   'PYMODULE'),
-  ('openpyxl.utils.escape',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\escape.py',
-   'PYMODULE'),
-  ('openpyxl.formatting.formatting',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\formatting\\formatting.py',
-   'PYMODULE'),
-  ('openpyxl.formatting',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\formatting\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.formatting.rule',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\formatting\\rule.py',
-   'PYMODULE'),
-  ('openpyxl.styles.differential',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\differential.py',
-   'PYMODULE'),
-  ('openpyxl.compat',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\compat\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.compat.strings',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\compat\\strings.py',
-   'PYMODULE'),
-  ('openpyxl.descriptors',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.descriptors.serialisable',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\serialisable.py',
-   'PYMODULE'),
-  ('openpyxl.chart.series_factory',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\series_factory.py',
-   'PYMODULE'),
-  ('openpyxl.chart.series',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\series.py',
-   'PYMODULE'),
-  ('openpyxl.chart.trendline',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\trendline.py',
-   'PYMODULE'),
-  ('openpyxl.chart.layout',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\layout.py',
-   'PYMODULE'),
-  ('openpyxl.chart.text',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\text.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.text',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\text.py',
-   'PYMODULE'),
-  ('openpyxl.drawing',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.drawing',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\drawing.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.geometry',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\geometry.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.line',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\line.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.fill',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\fill.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.effect',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\effect.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.colors',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\colors.py',
-   'PYMODULE'),
-  ('openpyxl.chart.marker',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\marker.py',
-   'PYMODULE'),
-  ('openpyxl.chart.picture',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\picture.py',
-   'PYMODULE'),
-  ('openpyxl.chart.label',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\label.py',
-   'PYMODULE'),
-  ('openpyxl.chart.error_bar',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\error_bar.py',
-   'PYMODULE'),
-  ('openpyxl.chart.shapes',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\shapes.py',
-   'PYMODULE'),
-  ('openpyxl.chart.data_source',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\data_source.py',
-   'PYMODULE'),
-  ('openpyxl.chart.surface_chart',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\surface_chart.py',
-   'PYMODULE'),
-  ('openpyxl.chart.axis',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\axis.py',
-   'PYMODULE'),
-  ('openpyxl.chart.title',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\title.py',
-   'PYMODULE'),
-  ('openpyxl.chart.descriptors',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\descriptors.py',
-   'PYMODULE'),
-  ('openpyxl.chart._3d',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\_3d.py',
-   'PYMODULE'),
-  ('openpyxl.chart._chart',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\_chart.py',
-   'PYMODULE'),
-  ('openpyxl.chart.legend',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\legend.py',
-   'PYMODULE'),
-  ('openpyxl.chart.stock_chart',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\stock_chart.py',
-   'PYMODULE'),
-  ('openpyxl.chart.updown_bars',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\updown_bars.py',
-   'PYMODULE'),
-  ('openpyxl.chart.scatter_chart',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\scatter_chart.py',
-   'PYMODULE'),
-  ('openpyxl.chart.radar_chart',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\radar_chart.py',
-   'PYMODULE'),
-  ('openpyxl.chart.pie_chart',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\pie_chart.py',
-   'PYMODULE'),
-  ('openpyxl.chart.line_chart',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\line_chart.py',
-   'PYMODULE'),
-  ('openpyxl.chart.bubble_chart',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\bubble_chart.py',
-   'PYMODULE'),
-  ('openpyxl.chart.bar_chart',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\bar_chart.py',
-   'PYMODULE'),
-  ('openpyxl.chart.area_chart',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\area_chart.py',
-   'PYMODULE'),
-  ('openpyxl.chart.chartspace',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\chartspace.py',
-   'PYMODULE'),
-  ('openpyxl.chart.print_settings',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\print_settings.py',
-   'PYMODULE'),
-  ('openpyxl.chart.pivot',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\pivot.py',
-   'PYMODULE'),
-  ('openpyxl.chart.plotarea',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\plotarea.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.image',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\image.py',
-   'PYMODULE'),
-  ('PIL.Image',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\Image.py',
-   'PYMODULE'),
-  ('PIL.WmfImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImageFile',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageFile.py',
-   'PYMODULE'),
-  ('PIL.MicImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\MicImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.GbrImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.TgaImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IptcImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.EpsImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.BufrStubImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FtexImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.BlpImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XpmImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FitsStubImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IcnsImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.features',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\features.py',
-   'PYMODULE'),
-  ('PIL.IcoImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.DdsImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SgiImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PcdImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.CurImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\CurImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PsdImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MspImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\MspImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SunImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\SunImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.Hdf5StubImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PalmImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PdfImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\PdfImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PdfParser',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\PdfParser.py',
-   'PYMODULE'),
-  ('PIL.ImageSequence',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageSequence.py',
-   'PYMODULE'),
-  ('PIL.XVThumbImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.WebPImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PcxImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpegImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FpxImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.Jpeg2KImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.DcxImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpoImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PixarImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SpiderImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImageTk',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageTk.py',
-   'PYMODULE'),
-  ('PIL.ImtImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FliImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\FliImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XbmImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.McIdasImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.GribStubImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.TiffImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\TiffImagePlugin.py',
-   'PYMODULE'),
-  ('fractions',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\fractions.py',
-   'PYMODULE'),
-  ('PIL.ImageShow',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageShow.py',
-   'PYMODULE'),
-  ('PIL.ImageQt',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageQt.py',
-   'PYMODULE'),
-  ('PIL.ImageColor',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageColor.py',
-   'PYMODULE'),
-  ('colorsys',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\colorsys.py',
-   'PYMODULE'),
-  ('PIL.ImageFilter',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageFilter.py',
-   'PYMODULE'),
-  ('PIL.PyAccess',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\PyAccess.py',
-   'PYMODULE'),
-  ('PIL.ImagePalette',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImagePalette.py',
-   'PYMODULE'),
-  ('PIL.PaletteFile',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\PaletteFile.py',
-   'PYMODULE'),
-  ('PIL.GimpPaletteFile',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\GimpPaletteFile.py',
-   'PYMODULE'),
-  ('PIL.GimpGradientFile',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\GimpGradientFile.py',
-   'PYMODULE'),
-  ('PIL.PngImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\PngImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImageChops',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageChops.py',
-   'PYMODULE'),
-  ('PIL.PpmImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\PpmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.JpegImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\JpegImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.JpegPresets',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\JpegPresets.py',
-   'PYMODULE'),
-  ('PIL.GifImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\GifImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.BmpImagePlugin',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\BmpImagePlugin.py',
-   'PYMODULE'),
-  ('PIL._util',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\_util.py',
-   'PYMODULE'),
-  ('PIL._binary',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\_binary.py',
-   'PYMODULE'),
-  ('PIL.TiffTags',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\TiffTags.py',
-   'PYMODULE'),
-  ('PIL.ImageMode',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageMode.py',
-   'PYMODULE'),
-  ('xml.etree.ElementTree',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\etree\\ElementTree.py',
-   'PYMODULE'),
-  ('xml.etree.cElementTree',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\etree\\cElementTree.py',
-   'PYMODULE'),
-  ('xml.etree.ElementInclude',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\etree\\ElementInclude.py',
-   'PYMODULE'),
-  ('xml.etree.ElementPath',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\etree\\ElementPath.py',
-   'PYMODULE'),
-  ('xml.etree',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\etree\\__init__.py',
-   'PYMODULE'),
-  ('PIL',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\__init__.py',
-   'PYMODULE'),
-  ('PIL.ImageGrab',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageGrab.py',
-   'PYMODULE'),
-  ('PIL.ImageDraw2',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageDraw2.py',
-   'PYMODULE'),
-  ('PIL.ImagePath',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImagePath.py',
-   'PYMODULE'),
-  ('PIL.ImageDraw',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageDraw.py',
-   'PYMODULE'),
-  ('PIL.ImageFont',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageFont.py',
-   'PYMODULE'),
-  ('PIL.ImageOps',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\ImageOps.py',
-   'PYMODULE'),
-  ('PIL._version',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PIL\\_version.py',
-   'PYMODULE'),
-  ('openpyxl.xml.functions',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\xml\\functions.py',
-   'PYMODULE'),
-  ('et_xmlfile.xmlfile',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\et_xmlfile\\xmlfile.py',
-   'PYMODULE'),
-  ('et_xmlfile',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\et_xmlfile\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.spreadsheet_drawing',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\spreadsheet_drawing.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.relation',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\relation.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.picture',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\picture.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.properties',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\properties.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.graphic',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\graphic.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.connector',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\connector.py',
-   'PYMODULE'),
-  ('openpyxl.drawing.xdr',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\xdr.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.table',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\table.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.related',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\related.py',
-   'PYMODULE'),
-  ('openpyxl.chartsheet',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.chartsheet.chartsheet',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\chartsheet.py',
-   'PYMODULE'),
-  ('openpyxl.chartsheet.publish',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\publish.py',
-   'PYMODULE'),
-  ('openpyxl.chartsheet.custom',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\custom.py',
-   'PYMODULE'),
-  ('openpyxl.chartsheet.views',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\views.py',
-   'PYMODULE'),
-  ('openpyxl.chartsheet.protection',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\protection.py',
-   'PYMODULE'),
-  ('openpyxl.chartsheet.properties',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\properties.py',
-   'PYMODULE'),
-  ('openpyxl.chartsheet.relation',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\relation.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.drawing',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\drawing.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet._reader',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_reader.py',
-   'PYMODULE'),
-  ('openpyxl.cell.text',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\cell\\text.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet._read_only',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_read_only.py',
-   'PYMODULE'),
-  ('openpyxl.cell.read_only',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\cell\\read_only.py',
-   'PYMODULE'),
-  ('openpyxl.packaging.relationship',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\relationship.py',
-   'PYMODULE'),
-  ('openpyxl.packaging',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.packaging.manifest',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\manifest.py',
-   'PYMODULE'),
-  ('openpyxl.packaging.core',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\core.py',
-   'PYMODULE'),
-  ('openpyxl.styles.stylesheet',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\stylesheet.py',
-   'PYMODULE'),
-  ('openpyxl.styles.table',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\table.py',
-   'PYMODULE'),
-  ('openpyxl.reader.workbook',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\reader\\workbook.py',
-   'PYMODULE'),
-  ('openpyxl.pivot.record',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\pivot\\record.py',
-   'PYMODULE'),
-  ('openpyxl.pivot',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\pivot\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.pivot.fields',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\pivot\\fields.py',
-   'PYMODULE'),
-  ('openpyxl.pivot.cache',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\pivot\\cache.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.external_link.external',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\external_link\\external.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.external_link',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\external_link\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.packaging.workbook',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\workbook.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.web',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\web.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.views',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\views.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.smart_tags',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\smart_tags.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.protection',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\protection.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.properties',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\properties.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.function_group',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\function_group.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.external_reference',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\external_reference.py',
-   'PYMODULE'),
-  ('openpyxl.reader.strings',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\reader\\strings.py',
-   'PYMODULE'),
-  ('openpyxl.comments.comment_sheet',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\comments\\comment_sheet.py',
-   'PYMODULE'),
-  ('openpyxl.comments',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\comments\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.comments.shape_writer',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\comments\\shape_writer.py',
-   'PYMODULE'),
-  ('openpyxl.comments.comments',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\comments\\comments.py',
-   'PYMODULE'),
-  ('openpyxl.comments.author',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\comments\\author.py',
-   'PYMODULE'),
-  ('openpyxl.cell',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\cell\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.xml.constants',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\xml\\constants.py',
-   'PYMODULE'),
-  ('openpyxl.utils.exceptions',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\exceptions.py',
-   'PYMODULE'),
-  ('openpyxl.pivot.table',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\pivot\\table.py',
-   'PYMODULE'),
-  ('openpyxl.workbook',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.workbook.workbook',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\workbook.py',
-   'PYMODULE'),
-  ('openpyxl.writer.excel',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\writer\\excel.py',
-   'PYMODULE'),
-  ('openpyxl.writer',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\writer\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.writer.theme',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\writer\\theme.py',
-   'PYMODULE'),
-  ('openpyxl.workbook._writer',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\_writer.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet._writer',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_writer.py',
-   'PYMODULE'),
-  ('openpyxl.cell._writer',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\cell\\_writer.py',
-   'PYMODULE'),
-  ('openpyxl.packaging.extended',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\extended.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet.copier',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\copier.py',
-   'PYMODULE'),
-  ('openpyxl.worksheet._write_only',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_write_only.py',
-   'PYMODULE'),
-  ('openpyxl.xml',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\xml\\__init__.py',
-   'PYMODULE'),
-  ('openpyxl.compat.numbers',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\openpyxl\\compat\\numbers.py',
+   'comments\\venv\\lib\\site-packages\\cv2\\__init__.py',
    'PYMODULE'),
   ('numpy',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
@@ -1906,53 +880,53 @@
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_typing.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.__about__',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.markers',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
   ('setuptools._vendor.packaging.specifiers',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
-  ('setuptools._vendor.pyparsing',
+  ('setuptools._vendor.packaging.__about__',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.tags',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.requirements',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging._compat',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('setuptools._vendor.ordered_set',
+  ('setuptools._vendor.packaging.requirements',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.version',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
   ('setuptools._vendor',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
    'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.ordered_set',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
+   'PYMODULE'),
   ('setuptools._vendor.packaging.utils',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging._structures',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
@@ -2648,6 +1622,1364 @@
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\numpy\\_globals.py',
    'PYMODULE'),
+  ('cv2.version',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\cv2\\version.py',
+   'PYMODULE'),
+  ('cv2.data',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\cv2\\data\\__init__.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\datetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('appJar',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\appJar\\__init__.py',
+   'PYMODULE'),
+  ('appJar.appjar',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\appJar\\appjar.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('idlelib.tree',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\tree.py',
+   'PYMODULE'),
+  ('idlelib.idle_test.htest',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\idle_test\\htest.py',
+   'PYMODULE'),
+  ('idlelib.pyshell',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\pyshell.py',
+   'PYMODULE'),
+  ('idlelib.macosx',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\macosx.py',
+   'PYMODULE'),
+  ('idlelib.help',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\help.py',
+   'PYMODULE'),
+  ('html.parser',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\html\\parser.py',
+   'PYMODULE'),
+  ('_markupbase',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\_markupbase.py',
+   'PYMODULE'),
+  ('idlelib.configdialog',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\configdialog.py',
+   'PYMODULE'),
+  ('idlelib.squeezer',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\squeezer.py',
+   'PYMODULE'),
+  ('idlelib.tooltip',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\tooltip.py',
+   'PYMODULE'),
+  ('idlelib.format',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\format.py',
+   'PYMODULE'),
+  ('idlelib.parenmatch',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\parenmatch.py',
+   'PYMODULE'),
+  ('idlelib.hyperparser',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\hyperparser.py',
+   'PYMODULE'),
+  ('idlelib.pyparse',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\pyparse.py',
+   'PYMODULE'),
+  ('idlelib.codecontext',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\codecontext.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('idlelib.autocomplete',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\autocomplete.py',
+   'PYMODULE'),
+  ('idlelib.autocomplete_w',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\autocomplete_w.py',
+   'PYMODULE'),
+  ('idlelib.multicall',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\multicall.py',
+   'PYMODULE'),
+  ('idlelib.textview',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\textview.py',
+   'PYMODULE'),
+  ('idlelib.query',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\query.py',
+   'PYMODULE'),
+  ('idlelib.dynoption',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\dynoption.py',
+   'PYMODULE'),
+  ('idlelib.config_key',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\config_key.py',
+   'PYMODULE'),
+  ('idlelib.help_about',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\help_about.py',
+   'PYMODULE'),
+  ('idlelib.window',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\window.py',
+   'PYMODULE'),
+  ('idlelib.mainmenu',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\mainmenu.py',
+   'PYMODULE'),
+  ('idlelib.stackviewer',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\stackviewer.py',
+   'PYMODULE'),
+  ('idlelib.debugobj',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\debugobj.py',
+   'PYMODULE'),
+  ('idlelib.iomenu',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\iomenu.py',
+   'PYMODULE'),
+  ('idlelib.history',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\history.py',
+   'PYMODULE'),
+  ('idlelib.debugobj_r',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\debugobj_r.py',
+   'PYMODULE'),
+  ('idlelib.undo',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\undo.py',
+   'PYMODULE'),
+  ('idlelib.percolator',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\percolator.py',
+   'PYMODULE'),
+  ('idlelib.redirector',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\redirector.py',
+   'PYMODULE'),
+  ('idlelib.delegator',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\delegator.py',
+   'PYMODULE'),
+  ('idlelib.rpc',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\rpc.py',
+   'PYMODULE'),
+  ('idlelib.outwin',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\outwin.py',
+   'PYMODULE'),
+  ('idlelib.filelist',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\filelist.py',
+   'PYMODULE'),
+  ('idlelib.editor',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\editor.py',
+   'PYMODULE'),
+  ('idlelib.pathbrowser',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\pathbrowser.py',
+   'PYMODULE'),
+  ('idlelib.browser',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\browser.py',
+   'PYMODULE'),
+  ('pyclbr',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\pyclbr.py',
+   'PYMODULE'),
+  ('idlelib.runscript',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\runscript.py',
+   'PYMODULE'),
+  ('tabnanny',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tabnanny.py',
+   'PYMODULE'),
+  ('idlelib.sidebar',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\sidebar.py',
+   'PYMODULE'),
+  ('idlelib.idle_test.test_sidebar',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\idle_test\\test_sidebar.py',
+   'PYMODULE'),
+  ('test.support',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\test\\support\\__init__.py',
+   'PYMODULE'),
+  ('test',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\test\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('test.support.testresult',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\test\\support\\testresult.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('nntplib',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\nntplib.py',
+   'PYMODULE'),
+  ('logging.handlers',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\logging\\handlers.py',
+   'PYMODULE'),
+  ('smtplib',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\smtplib.py',
+   'PYMODULE'),
+  ('unittest.mock',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\unittest\\mock.py',
+   'PYMODULE'),
+  ('idlelib.calltip',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\calltip.py',
+   'PYMODULE'),
+  ('idlelib.calltip_w',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\calltip_w.py',
+   'PYMODULE'),
+  ('idlelib.autoexpand',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\autoexpand.py',
+   'PYMODULE'),
+  ('idlelib.statusbar',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\statusbar.py',
+   'PYMODULE'),
+  ('idlelib.search',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\search.py',
+   'PYMODULE'),
+  ('idlelib.searchbase',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\searchbase.py',
+   'PYMODULE'),
+  ('idlelib.searchengine',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\searchengine.py',
+   'PYMODULE'),
+  ('idlelib.replace',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\replace.py',
+   'PYMODULE'),
+  ('idlelib.grep',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\grep.py',
+   'PYMODULE'),
+  ('idlelib.debugger_r',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\debugger_r.py',
+   'PYMODULE'),
+  ('idlelib.debugger',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\debugger.py',
+   'PYMODULE'),
+  ('idlelib.scrolledlist',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\scrolledlist.py',
+   'PYMODULE'),
+  ('idlelib.colorizer',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\colorizer.py',
+   'PYMODULE'),
+  ('idlelib.run',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\run.py',
+   'PYMODULE'),
+  ('idlelib.idle_test',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\idle_test\\__init__.py',
+   'PYMODULE'),
+  ('idlelib.zoomheight',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\zoomheight.py',
+   'PYMODULE'),
+  ('idlelib',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\__init__.py',
+   'PYMODULE'),
+  ('idlelib.config',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\idlelib\\config.py',
+   'PYMODULE'),
+  ('appJar.lib.tkinter_png',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\appJar\\lib\\tkinter_png.py',
+   'PYMODULE'),
+  ('appJar.lib.png',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\appJar\\lib\\png.py',
+   'PYMODULE'),
+  ('appJar.lib.nanojpeg',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\appJar\\lib\\nanojpeg.py',
+   'PYMODULE'),
+  ('appJar.lib',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\appJar\\lib\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.dnd',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\dnd.py',
+   'PYMODULE'),
+  ('appJar.lib.TkDND_wrapper',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\appJar\\lib\\TkDND_wrapper.py',
+   'PYMODULE'),
+  ('appJar.lib.tooltip',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\appJar\\lib\\tooltip.py',
+   'PYMODULE'),
+  ('turtle',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\turtle.py',
+   'PYMODULE'),
+  ('tkinter.ttk',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\ttk.py',
+   'PYMODULE'),
+  ('imghdr',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\imghdr.py',
+   'PYMODULE'),
+  ('tkinter.font',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\font.py',
+   'PYMODULE'),
+  ('tkinter.scrolledtext',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\scrolledtext.py',
+   'PYMODULE'),
+  ('tkinter.filedialog',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\filedialog.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.dialog',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\dialog.py',
+   'PYMODULE'),
+  ('tkinter.colorchooser',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\colorchooser.py',
+   'PYMODULE'),
+  ('tkinter.simpledialog',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\simpledialog.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('tkinter',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\random.py',
+   'PYMODULE'),
+  ('os',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\os.py',
+   'PYMODULE'),
+  ('openpyxl',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl._constants',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\_constants.py',
+   'PYMODULE'),
+  ('openpyxl.reader.excel',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\reader\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.reader',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\reader\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.reader.drawings',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\reader\\drawings.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reader',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\reader.py',
+   'PYMODULE'),
+  ('openpyxl.chart',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reference',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\reference.py',
+   'PYMODULE'),
+  ('openpyxl.utils',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.utils.formulas',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\formulas.py',
+   'PYMODULE'),
+  ('openpyxl.utils.cell',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.worksheet',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\worksheet.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.scenario',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\scenario.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.pagebreak',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\pagebreak.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.properties',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.styles.colors',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.styles',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.styles.named_styles',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\named_styles.py',
+   'PYMODULE'),
+  ('openpyxl.styles.cell_style',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\cell_style.py',
+   'PYMODULE'),
+  ('openpyxl.utils.indexed_list',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\indexed_list.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.excel',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.styles.protection',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.styles.numbers',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fonts',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\fonts.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.nested',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\nested.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.base',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\base.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.namespace',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\namespace.py',
+   'PYMODULE'),
+  ('openpyxl.utils.datetime',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\datetime.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fills',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\fills.py',
+   'PYMODULE'),
+  ('openpyxl.styles.borders',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\borders.py',
+   'PYMODULE'),
+  ('openpyxl.styles.alignment',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\alignment.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.sequence',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\sequence.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.merge',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\merge.py',
+   'PYMODULE'),
+  ('openpyxl.cell.cell',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\cell\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.hyperlink',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\hyperlink.py',
+   'PYMODULE'),
+  ('openpyxl.styles.styleable',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\styleable.py',
+   'PYMODULE'),
+  ('openpyxl.styles.builtins',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\builtins.py',
+   'PYMODULE'),
+  ('openpyxl.styles.proxy',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\proxy.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.cell_range',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\cell_range.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.views',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.filters',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\filters.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.protection',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.utils.protection',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.dimensions',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\dimensions.py',
+   'PYMODULE'),
+  ('openpyxl.utils.bound_dictionary',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\bound_dictionary.py',
+   'PYMODULE'),
+  ('openpyxl.utils.units',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\units.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.page',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\page.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.datavalidation',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\datavalidation.py',
+   'PYMODULE'),
+  ('openpyxl.formula.translate',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\formula\\translate.py',
+   'PYMODULE'),
+  ('openpyxl.formula',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\formula\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formula.tokenizer',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\formula\\tokenizer.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.defined_name',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\defined_name.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.child',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\child.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.header_footer',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\header_footer.py',
+   'PYMODULE'),
+  ('openpyxl.utils.escape',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\escape.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.formatting',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\formatting\\formatting.py',
+   'PYMODULE'),
+  ('openpyxl.formatting',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\formatting\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.rule',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\formatting\\rule.py',
+   'PYMODULE'),
+  ('openpyxl.styles.differential',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\differential.py',
+   'PYMODULE'),
+  ('openpyxl.compat',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\compat\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.compat.strings',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\compat\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.serialisable',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\descriptors\\serialisable.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series_factory',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\series_factory.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\series.py',
+   'PYMODULE'),
+  ('openpyxl.chart.trendline',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\trendline.py',
+   'PYMODULE'),
+  ('openpyxl.chart.layout',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\layout.py',
+   'PYMODULE'),
+  ('openpyxl.chart.text',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\text.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.text',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\text.py',
+   'PYMODULE'),
+  ('openpyxl.drawing',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.drawing',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.geometry',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\geometry.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.line',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\line.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.fill',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\fill.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.effect',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\effect.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.colors',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.chart.marker',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\marker.py',
+   'PYMODULE'),
+  ('openpyxl.chart.picture',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.chart.label',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\label.py',
+   'PYMODULE'),
+  ('openpyxl.chart.error_bar',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\error_bar.py',
+   'PYMODULE'),
+  ('openpyxl.chart.shapes',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\shapes.py',
+   'PYMODULE'),
+  ('openpyxl.chart.data_source',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\data_source.py',
+   'PYMODULE'),
+  ('openpyxl.chart.surface_chart',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\surface_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.axis',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\axis.py',
+   'PYMODULE'),
+  ('openpyxl.chart.title',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\title.py',
+   'PYMODULE'),
+  ('openpyxl.chart.descriptors',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\descriptors.py',
+   'PYMODULE'),
+  ('openpyxl.chart._3d',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\_3d.py',
+   'PYMODULE'),
+  ('openpyxl.chart._chart',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.legend',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\legend.py',
+   'PYMODULE'),
+  ('openpyxl.chart.stock_chart',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\stock_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.updown_bars',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\updown_bars.py',
+   'PYMODULE'),
+  ('openpyxl.chart.scatter_chart',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\scatter_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.radar_chart',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\radar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pie_chart',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\pie_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.line_chart',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\line_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bubble_chart',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\bubble_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bar_chart',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\bar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.area_chart',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\area_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.chartspace',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\chartspace.py',
+   'PYMODULE'),
+  ('openpyxl.chart.print_settings',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\print_settings.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pivot',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\pivot.py',
+   'PYMODULE'),
+  ('openpyxl.chart.plotarea',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chart\\plotarea.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.image',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\image.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsStubImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\fractions.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\colorsys.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.PyAccess',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\PyAccess.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL.ImageGrab',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageGrab.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw2',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageDraw2.py',
+   'PYMODULE'),
+  ('PIL.ImagePath',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImagePath.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageDraw.py',
+   'PYMODULE'),
+  ('PIL.ImageFont',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageFont.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('openpyxl.xml.functions',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\xml\\functions.py',
+   'PYMODULE'),
+  ('et_xmlfile.xmlfile',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\et_xmlfile\\xmlfile.py',
+   'PYMODULE'),
+  ('et_xmlfile',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\et_xmlfile\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.spreadsheet_drawing',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\spreadsheet_drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.relation',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.picture',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.properties',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.graphic',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\graphic.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.connector',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\connector.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.xdr',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\drawing\\xdr.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.table',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\table.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.related',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\related.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.chartsheet',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\chartsheet.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.publish',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\publish.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.custom',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\custom.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.views',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.protection',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.properties',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.relation',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\chartsheet\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.drawing',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._reader',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_reader.py',
+   'PYMODULE'),
+  ('openpyxl.cell.text',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\cell\\text.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._read_only',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_read_only.py',
+   'PYMODULE'),
+  ('openpyxl.cell.read_only',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\cell\\read_only.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.relationship',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\relationship.py',
+   'PYMODULE'),
+  ('openpyxl.packaging',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.manifest',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\manifest.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.core',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\core.py',
+   'PYMODULE'),
+  ('openpyxl.styles.stylesheet',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\stylesheet.py',
+   'PYMODULE'),
+  ('openpyxl.styles.table',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\styles\\table.py',
+   'PYMODULE'),
+  ('openpyxl.reader.workbook',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\reader\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.record',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\pivot\\record.py',
+   'PYMODULE'),
+  ('openpyxl.pivot',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\pivot\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.fields',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\pivot\\fields.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.cache',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\pivot\\cache.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link.external',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\external_link\\external.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\external_link\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.workbook',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.web',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\web.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.views',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\views.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.smart_tags',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\smart_tags.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.protection',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.properties',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.function_group',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\function_group.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_reference',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\external_reference.py',
+   'PYMODULE'),
+  ('openpyxl.reader.strings',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\reader\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comment_sheet',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\comments\\comment_sheet.py',
+   'PYMODULE'),
+  ('openpyxl.comments',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\comments\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.comments.shape_writer',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\comments\\shape_writer.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comments',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\comments\\comments.py',
+   'PYMODULE'),
+  ('openpyxl.comments.author',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\comments\\author.py',
+   'PYMODULE'),
+  ('openpyxl.cell',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\cell\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.xml.constants',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\xml\\constants.py',
+   'PYMODULE'),
+  ('openpyxl.utils.exceptions',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\utils\\exceptions.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.table',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\pivot\\table.py',
+   'PYMODULE'),
+  ('openpyxl.workbook',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.workbook',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.writer.excel',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\writer\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.writer',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\writer\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.writer.theme',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\writer\\theme.py',
+   'PYMODULE'),
+  ('openpyxl.workbook._writer',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\workbook\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._writer',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.cell._writer',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\cell\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.extended',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\packaging\\extended.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.copier',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\copier.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._write_only',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\worksheet\\_write_only.py',
+   'PYMODULE'),
+  ('openpyxl.xml',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\xml\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.compat.numbers',
+   'c:\\users\\ss078074\\pycharmprojects\\schedule '
+   'comments\\venv\\lib\\site-packages\\openpyxl\\compat\\numbers.py',
+   'PYMODULE'),
   ('xlsxwriter',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\xlsxwriter\\__init__.py',
@@ -3016,9 +3348,6 @@
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
    'PYMODULE'),
-  ('ctypes.wintypes',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\ctypes\\wintypes.py',
-   'PYMODULE'),
   ('pandas.io.pickle',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\pandas\\io\\pickle.py',
@@ -3030,15 +3359,6 @@
   ('pandas.io.sql',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\pandas\\io\\sql.py',
-   'PYMODULE'),
-  ('sqlite3',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\__init__.py',
-   'PYMODULE'),
-  ('sqlite3.dump',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\dump.py',
-   'PYMODULE'),
-  ('sqlite3.dbapi2',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\sqlite3\\dbapi2.py',
    'PYMODULE'),
   ('pandas.io.pytables',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
@@ -3943,15 +4263,6 @@
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\mouseinfo\\__init__.py',
    'PYMODULE'),
-  ('tkinter.ttk',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\ttk.py',
-   'PYMODULE'),
-  ('tkinter',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\__init__.py',
-   'PYMODULE'),
-  ('tkinter.constants',
-   'C:\\Users\\SS078074\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\constants.py',
-   'PYMODULE'),
   ('pyperclip',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\pyperclip\\__init__.py',
@@ -3959,18 +4270,6 @@
   ('pyscreeze',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
    'comments\\venv\\lib\\site-packages\\pyscreeze\\__init__.py',
-   'PYMODULE'),
-  ('cv2',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\cv2\\__init__.py',
-   'PYMODULE'),
-  ('cv2.version',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\cv2\\version.py',
-   'PYMODULE'),
-  ('cv2.data',
-   'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\cv2\\data\\__init__.py',
    'PYMODULE'),
   ('pymsgbox',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '

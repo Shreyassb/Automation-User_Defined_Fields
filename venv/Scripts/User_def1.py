@@ -6,29 +6,18 @@ import pandas as pd
 import xlsxwriter
 import openpyxl
 import sys, os #till here is SHREYAS imports
-from operator import itemgetter  #######package to sort list of lists
 import re
 import random
 from appJar import gui
 from time import sleep
 import copy
 from datetime import datetime
-from threading import Thread
-from pynput.keyboard import Listener
-from queue import *
-#from pynput import keyboard
-
-"""try:
-    from PIL import Image, ImageFilter, ImageEnhance
-except ImportError:
-    import Image, ImageFilter, ImageEnhance
-#import pytesseract
-#from pytesseract import Output"""
 import pandas
 import pyautogui
 from pyautogui import press, typewrite, hotkey
-
-#pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+import threading
+import sys
+import cv2
 
 
 ####################################################
@@ -133,196 +122,395 @@ introapp.go()
 ######################################################################################################################################
 ######################################################################################################################################
 ###############################################################################################################################
+def checkStop():
+    return dcwapp.yesNoBox("Confirm Exit", "Are you sure you want to exit the application?")
+
+
 dcwapp = gui("User defined fields", "600x400")
 dcwapp.setBg("white", override=False, tint=False)
-dcwapp.addLabel("title", "Welcome to User defined fields", 0, 0, 2)
+dcwapp.addLabel("title", "Welcome to User defined fields", 0, 0, 3)
 dcwapp.setLabelBg("title", "white")
-dcwapp.addFileEntry("Automation File", 1, 0, 2)
-dcwapp.addDirectoryEntry("Log File Destination", 2, 0, 2)
+dcwapp.addFileEntry("Automation File", 1, 0, 3)
+dcwapp.addDirectoryEntry("Log File Destination", 2, 0, 3)
 dcwapp.setEntry("Automation File", "Enter the automation file here!")
 dcwapp.setEntry("Log File Destination", "Where do you want the log file saved?")
+dcwapp.setStopFunction(checkStop)
 
-
-intrpt = 0
 
 output_list = []
 
-def resource_path(relative_path):
-    if hasattr(sys, '_MEIPASS'):
-        return os.path.join(sys._MEIPASS, relative_path)
-    return os.path.join(os.path.abspath("."), relative_path)
-
-
-
-def tshoot():
+def tshoot(): #troubleshooting steps to cancel, the erronous UDF value.
     onscreen = None
     check = 0
 
-    while onscreen == None and check < 8:
-        onscreen = pyautogui.locateOnScreen(resource_path('DuplicatedUniqueKey.png'),confidence=0.9) or pyautogui.locateOnScreen(resource_path('ErrorOcc.png'), confidence=0.9)
+    while onscreen == None and check < 3:
+        check+=1
+        onscreen = pyautogui.locateOnScreen('DuplicatedUniqueKey.png',confidence=0.7)
         if onscreen != None:
             break
-        else:
-            check += 1
+        onscreen = pyautogui.locateOnScreen('DuplicatedUniqueKey2.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('ErrorOcc.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('ErrorOcc1.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('ErrorOcc2.png', confidence=0.7)
+        if onscreen != None:
+            break
 
-    if check >= 8:
+    if check >= 3:
         output_list.append('Success')
-        #dcwapp.warningBox("Oops!","I couldn't find the Ok button. Please click the button and then close this message box.")
 
     else:
         output_list.append('Fail')
-        identify(t1)
-        identify(t2)
-        identify(t3)
+        identify1()
+        identify2()
+        identify3()
 
 
-
-t1 = resource_path('Ok.png') or resource_path('Ok2.png') or resource_path('Ok1.png')
-t2 = resource_path('Cancel.png') or resource_path('Cancel1.png')
-t3 = resource_path('Yes.png') or resource_path('Yes2.png')
-
-
-
-def identify(a):
-    newfieldX, newfieldY = pyautogui.locateCenterOnScreen(a, confidence=0.8)
-    pyautogui.moveTo(newfieldX, newfieldY)
-    sleep(.05)
-    if (newfieldX, newfieldY) != pyautogui.position():
-        dcwapp.warningBox("Paused!",
-                          "You moved the cursor! Program paused.  Place your cursor over the 'Rule' tab.  After closing this message box, the program will resume in 5 seconds.")
-        sleep(5)
-    sleep(.05)
-    pyautogui.click()
-    time.sleep(1)
-    #return a
-
-
-def add(p):
+def identify1():
     onscreen = None
     check = 0
-    while onscreen == None and check < 8:
-        onscreen = pyautogui.locateCenterOnScreen(p, confidence=0.9)
+
+    while onscreen == None and check < 3:
+        check += 1
+        onscreen = pyautogui.locateOnScreen('Ok.png', confidence=0.7)
         if onscreen != None:
             break
-        else:
-            check += 1
-
-    if check >= 8:
-        dcwapp.warningBox("Oops!, I couldn't find the 'Add' button. Please click the button and then close this message box.")
+        onscreen = pyautogui.locateOnScreen('Ok4.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('Ok2.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('Ok5.png', confidence=0.7)
+        if onscreen != None:
+            break
+    if check >= 3:
+        dcwapp.warningBox("Oops!", "I couldn't find the 'Ok' button.  Please click 'Ok' button and then close this message box")
+        sleep(3)
 
     else:
-        identify(p)
+        newfieldX, newfieldY = pyautogui.center(onscreen)
+        pyautogui.moveTo(newfieldX, newfieldY)
+        sleep(.05)
+        if (newfieldX, newfieldY) != pyautogui.position():
+            dcwapp.warningBox("Paused!",
+                          "You moved the cursor! Program paused.  Place your cursor over the 'Ok' button.  After closing this message box, the program will resume in 5 seconds.")
+            sleep(5)
+        sleep(.05)
+        pyautogui.click()
+        #time.sleep(1)
 
-def press(button):
-    global intrpt
-    if button == "CLOSE":
-        dcwapp.stop()
-        sys.exit()
+def identify2():
+    onscreen = None
+    check = 0
+
+    while onscreen == None and check < 3:
+        check += 1
+        onscreen = pyautogui.locateOnScreen('Cancel.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('Cancel1.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('Cancel3.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('Cancel5.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('Cancel4.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('Cancel6.png', confidence=0.7)
+        if onscreen != None:
+            break
+
+    if check >= 3:
+        dcwapp.warningBox("Oops!", "I couldn't find the 'Cancel' button.  Please click the 'Cancel' button and then close this message box")
+        sleep(3)
+
     else:
-        try:
-            myfile = str(dcwapp.getEntry("Automation File"))
-            temp = str(dcwapp.getEntry("Log File Destination"))
-            now = datetime.now()
-            current_time = now.strftime("%H_%M_%S")
-            filename = "LogFile"
-            mynewfile = temp + "/" + filename + current_time + ".xlsx"
-            excelfile = pandas.ExcelFile(myfile)
-            df = excelfile.parse(0)
-            f1 = df['Field Name/Prompt Description'].values.tolist()
-            f2 = df['CDF/Unique Key'].values.tolist()
-            f3 = df['PROMPT_TYPE'].values.tolist()
-            f4 = df['CODESET'].values.tolist()
+        newfieldX, newfieldY = pyautogui.center(onscreen)
+        pyautogui.moveTo(newfieldX, newfieldY)
+        sleep(.05)
+        if (newfieldX, newfieldY) != pyautogui.position():
+            dcwapp.warningBox("Paused!",
+                          "You moved the cursor! Program paused.  Place your cursor over the 'Cancel' button.  After closing this message box, the program will resume in 5 seconds.")
+            sleep(5)
+        sleep(.05)
+        pyautogui.click()
+        #time.sleep(1)
+
+def identify3():
+    onscreen = None
+    check = 0
+
+    while onscreen == None and check < 3:
+        check += 1
+        onscreen = pyautogui.locateOnScreen('Yes.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('Yes2.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('Yes3.png', confidence=0.7)
+        if onscreen != None:
+            break
+
+    if check >= 3:
+        dcwapp.warningBox('Oops',"Oops!", "I couldn't find the 'Yes' button.  Please Click 'Yes' button and then close this message box")
+        sleep(3)
+
+    else:
+        newfieldX, newfieldY = pyautogui.center(onscreen)
+        pyautogui.moveTo(newfieldX, newfieldY)
+        sleep(.05)
+        if (newfieldX, newfieldY) != pyautogui.position():
+            dcwapp.warningBox("Paused!",
+                          "You moved the cursor! Program paused.  Place your cursor over the 'Yes' button.  After closing this message box, the program will resume in 5 seconds.")
+            sleep(5)
+        sleep(.05)
+        pyautogui.click()
+        #time.sleep(1)
+
+
+def add():
+    onscreen = None
+    check = 0
+
+    while onscreen == None and check < 3:
+        check += 1
+        onscreen = pyautogui.locateOnScreen('Add3.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('Add4.png', confidence=0.7)
+        if onscreen != None:
+            break
+        onscreen = pyautogui.locateOnScreen('Add5.png', confidence=0.7)
+        if onscreen != None:
+            break
+
+    if check >= 3:
+        dcwapp.warningBox('Oops!','Oops!, I could not find the Add button. Please click the button and then close this message box')
+        sleep(3)
+
+    else:
+        newfieldX, newfieldY = pyautogui.center(onscreen)
+        pyautogui.moveTo(newfieldX, newfieldY)
+        sleep(.05)
+        if (newfieldX, newfieldY) != pyautogui.position():
+            dcwapp.warningBox("Paused!",
+                              "You moved the cursor! Program paused.  Place your cursor over the 'Add' button.  After closing this message box, the program will resume in 5 seconds.")
+            sleep(5)
+        sleep(.05)
+        pyautogui.click()
+
+def buttonThread():
+    t1=threading.Thread(target=press1)
+    t1.daemon= True
+    t1.start()
+
+def press1():
+    try:
+        myfile = str(dcwapp.getEntry("Automation File"))
+        temp = str(dcwapp.getEntry("Log File Destination"))
+        now = datetime.now()
+        current_time = now.strftime("%H_%M_%S")
+        filename = "LogFile"
+        mynewfile = temp + "/" + filename + current_time + ".xlsx"
+        excelfile = pandas.ExcelFile(myfile)
+        workbook = xlsxwriter.Workbook(mynewfile)
+        workbook.close()
+        df = excelfile.parse(0)
+        f1 = df['Field Name'].values.tolist()
+        f2 = df['Unique Key'].values.tolist()
+        f3 = df['PROMPT TYPE'].values.tolist()
+        f4 = df['CODESET'].values.tolist()
+        time.sleep(1)
+
+        for name in range(len(f1)):  # typing appt name into the menmonic field in appt type tool to search for it
             time.sleep(1)
-            p=resource_path('Add3.png')
-            add(p)
+            #p = 'Add5.png'
+            add()
+            pyautogui.write(f1[name])
+            time.sleep(.5)
+            keyboard.press('tab')
+            time.sleep(.5)
 
-            for name in range(len(f1)):  # typing appt name into the menmonic field in appt type tool to search for it
-                    pyautogui.write(f1[name])
-                    time.sleep(.5)
-                    keyboard.press('tab')
-                    time.sleep(.5)
+            pyautogui.write(f2[name])
+            time.sleep(.5)
+            keyboard.press('tab')
+            time.sleep(1)
 
-                    pyautogui.write(f2[name])
-                    time.sleep(.5)
-                    keyboard.press('tab')
-                    time.sleep(1)
+            if f3[name] == 'Text' or f3[name] == 'TEXT':
+                keyboard.press('tab')
+                time.sleep(.5)
+                keyboard.press('enter')
+                time.sleep(.5)
+                tshoot()
 
-                    if f3[name] == 'Text' or f3[name] == 'TEXT':
-                        keyboard.press('tab')
-                        time.sleep(.5)
-                        keyboard.press('enter')
-                        time.sleep(.5)
-                        tshoot()
+            elif f3[name] == 'Multi' or f3[name] == 'MULTI':
+                i = 0
+                while i < 1:
+                    keyboard.press('down')
+                    time.sleep(0.25)
+                    i = i + 1
+                keyboard.press('tab')
+                time.sleep(1)
+                keyboard.press('enter')
+                time.sleep(1)
+                tshoot()
 
-                    elif f3[name] == 'Multi' or f3[name] == 'MULTI':
-                        i = 0
-                        while i < 1:
-                            keyboard.press('down')
-                            time.sleep(0.25)
-                            i = i + 1
-                        keyboard.press('tab')
-                        time.sleep(1)
-                        keyboard.press('enter')
-                        time.sleep(4)
-                        tshoot()
+            elif f3[name] == 'Date' or f3[name] == 'DATE':
+                i = 0
+                while i < 2:
+                    keyboard.press('down')
+                    time.sleep(0.25)
+                    i = i + 1
+                keyboard.press('tab')
+                time.sleep(1)
+                keyboard.press('enter')
+                time.sleep(1)
+                tshoot()
 
-                    elif f3[name] == 'Date' or f3[name] == 'DATE':
-                        i = 0
-                        while i < 2:
-                            keyboard.press('down')
-                            time.sleep(0.25)
-                            i = i + 1
-                        keyboard.press('tab')
-                        time.sleep(1)
-                        keyboard.press('enter')
-                        time.sleep(4)
-                        tshoot()
-
-                    elif f3[name] == 'Numeric' or f3[name] == 'NUMERIC' or f3[name] == "Number" or f3[name] == "NUMBER":
-                        i = 0
-                        while i < 3:
-                            keyboard.press('down')
-                            time.sleep(0.25)
-                            i = i + 1
-                        keyboard.press('tab')
-                        time.sleep(1)
-                        keyboard.press('enter')
-                        time.sleep(4)
-                        tshoot()
+            elif f3[name] == 'Numeric' or f3[name] == 'NUMERIC' or f3[name] == "Number" or f3[name] == "NUMBER":
+                i = 0
+                while i < 3:
+                    keyboard.press('down')
+                    time.sleep(0.25)
+                    i = i + 1
+                keyboard.press('tab')
+                time.sleep(1)
+                keyboard.press('enter')
+                time.sleep(1)
+                tshoot()
 
 
-                    elif f3[name] == 'Coded' or f3[name] == 'CODED' or f3[name] == "Codified" or f3[name] == "CODIFIED":
-                        time.sleep(1)
-                        z = f4[name]
-                        i = 0
-                        while i < 4:
-                            keyboard.press('down')
-                            time.sleep(0.25)
-                            i = i + 1
-                        keyboard.press('tab')
-                        time.sleep(1)
-                        pyautogui.write(str(z))
-                        keyboard.press('tab')
-                        time.sleep(1)
-                        keyboard.press('enter')
-                        time.sleep(2)
-                        tshoot()
-
-                    add(p)
-
-            #pyautogui.alert("Automation Complete!")
+            elif f3[name] == 'Coded' or f3[name] == 'CODED' or f3[name] == "Codified" or f3[name] == "CODIFIED":
+                time.sleep(1)
+                z = f4[name]
+                i = 0
+                while i < 4:
+                    keyboard.press('down')
+                    time.sleep(0.25)
+                    i = i + 1
+                keyboard.press('tab')
+                time.sleep(1)
+                pyautogui.write(str(z))
+                keyboard.press('tab')
+                time.sleep(1)
+                keyboard.press('enter')
+                time.sleep(1)
+                tshoot()
 
             df1 = pd.DataFrame(list(zip(f1, f2, f3, f4, output_list)),
-                               columns=['Field Name/Prompt Description', 'CDF/Unique Key', 'PROMPT_TYPE', 'CODESET',
+                               columns=['Field Name', 'Unique Key', 'PROMPT TYPE', 'CODESET',
                                         'Status'])
             df1.to_excel(mynewfile)
-            dcwapp.infoBox("Success", "Ta-da!  Finished!")
 
-        except PermissionError:
-            pyautogui.alert("Please close the excel workbook and then run automation.")
-            exit()
+    except PermissionError:
+        pyautogui.alert("Please close the excel workbook and then run automation.")
+        exit()
 
-dcwapp.addButtons(["RUN"], press, 4, 0)
-dcwapp.addButtons(["CLOSE"], press, 4, 1)
+
+def press(button): #button used for running Close and Try it functionalities. "Try it" helps users analyse, get familiar with the automation. Close is to exit after every iteration.
+
+    if button == "Close":
+        dcwapp.stop()
+        #sys.exit()
+
+    elif button == "Try it":
+        myfile = str(dcwapp.getEntry("Automation File"))
+        excelfile = pandas.ExcelFile(myfile)
+        df = excelfile.parse(0)
+        f1 = df['Field Name'].values.tolist()
+        f2 = df['Unique Key'].values.tolist()
+        f3 = df['PROMPT TYPE'].values.tolist()
+        f4 = df['CODESET'].values.tolist()
+        time.sleep(1)
+
+        for name in range(len(f1)):
+            if name>3:
+                break
+
+            #p = 'Add5.png'
+            #time.sleep(1)
+            add()
+            pyautogui.write(f1[name])
+            time.sleep(.5)
+            keyboard.press('tab')
+            time.sleep(.5)
+
+            pyautogui.write(f2[name])
+            time.sleep(.5)
+            keyboard.press('tab')
+            time.sleep(1)
+
+            if f3[name] == 'Text' or f3[name] == 'TEXT':
+                #keyboard.press('tab')
+                time.sleep(.5)
+                identify2()
+                identify3()
+
+            elif f3[name] == 'Multi' or f3[name] == 'MULTI':
+                i = 0
+                while i < 1:
+                    keyboard.press('down')
+                    time.sleep(0.25)
+                    i = i + 1
+                #keyboard.press('tab')
+                time.sleep(1)
+                identify2()
+                identify3()
+
+            elif f3[name] == 'Date' or f3[name] == 'DATE':
+                i = 0
+                while i < 2:
+                    keyboard.press('down')
+                    time.sleep(0.25)
+                    i = i + 1
+                #keyboard.press('tab')
+                time.sleep(1)
+                identify2()
+                identify3()
+
+            elif f3[name] == 'Numeric' or f3[name] == 'NUMERIC' or f3[name] == "Number" or f3[name] == "NUMBER":
+                i = 0
+                while i < 3:
+                    keyboard.press('down')
+                    time.sleep(0.25)
+                    i = i + 1
+                #keyboard.press('tab')
+                time.sleep(1)
+                identify2()
+                identify3()
+
+
+            elif f3[name] == 'Coded' or f3[name] == 'CODED' or f3[name] == "Codified" or f3[name] == "CODIFIED":
+                time.sleep(1)
+                z = f4[name]
+                i = 0
+                while i < 4:
+                    keyboard.press('down')
+                    time.sleep(0.25)
+                    i = i + 1
+                keyboard.press('tab')
+                time.sleep(1)
+                pyautogui.write(str(z))
+                #keyboard.press('tab')
+                time.sleep(1)
+                identify2()
+                identify3()
+
+
+
+dcwapp.addButtons(["Run"], buttonThread, 3, 0)
+dcwapp.addButtons(["Try it"], press, 3, 1)
+dcwapp.addButtons(["Close"], press, 3, 2)
 dcwapp.go()
 

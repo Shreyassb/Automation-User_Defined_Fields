@@ -1,10 +1,10 @@
 ('C:\\Users\\SS078074\\PycharmProjects\\Schedule '
  'Comments\\venv\\Scripts\\build\\User_def1\\User_def1.exe',
- False,
+ True,
  False,
  True,
  'c:\\users\\ss078074\\pycharmprojects\\schedule '
- 'comments\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-windowed.ico',
+ 'comments\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
  None,
  False,
  False,
@@ -57,8 +57,8 @@
  [],
  False,
  False,
- 1621769168,
- [('runw.exe',
+ 1626546546,
+ [('run.exe',
    'c:\\users\\ss078074\\pycharmprojects\\schedule '
-   'comments\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-32bit\\runw.exe',
+   'comments\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-32bit\\run.exe',
    'EXECUTABLE')])
